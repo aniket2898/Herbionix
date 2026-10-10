@@ -48,3 +48,17 @@
       form.querySelectorAll('input, textarea').forEach(el => el.value = '');
     });
   });
+
+
+  // Ingredient science: expand / collapse
+  document.querySelectorAll('[data-ing-toggle]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const card = btn.closest('.ing-card');
+      const detail = card.querySelector('.ing-detail');
+      const willOpen = detail.hidden;
+      detail.hidden = !willOpen;
+      card.classList.toggle('open', willOpen);
+      btn.setAttribute('aria-expanded', String(willOpen));
+      btn.querySelector('.lbl').textContent = willOpen ? 'Hide Ingredient Science' : 'Explore Ingredient Science';
+    });
+  });
