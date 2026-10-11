@@ -2,6 +2,15 @@
 
 This version has every file in one folder — no subfolders — so it uploads cleanly through GitHub's drag-and-drop web interface without worrying about folder structure.
 
+## Features
+
+- Animated hero (letter-by-letter title, slow rotating rings, subtle mouse parallax) and panels that stagger-reveal content as you scroll
+- Direct links such as `/#products`, `/#quality`, `/#doctors`, `/#about`, `/#contact`; the browser Back button and Esc close a panel
+- Keyboard and screen-reader friendly (focus moves into a panel and returns on close, labelled dialogs, visible focus rings)
+- Respects "reduce motion" settings; custom cursor only on mouse devices
+- Contact form opens an email to herbionixofficial@gmail.com with the message pre-filled (no backend needed)
+- SEO: structured data (JSON-LD), social preview tags, sitemap, robots.txt
+
 ## File structure
 
 ```
