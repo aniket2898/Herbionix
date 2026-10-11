@@ -12,6 +12,7 @@ This version has every file in one folder — no subfolders — so it uploads cl
 ├── og-image.png
 ├── robots.txt
 ├── sitemap.xml
+├── Herbionix_H_Reflux_Formulation_Overview.pdf   → linked from the Products panel
 └── README.md
 ```
 
@@ -42,7 +43,7 @@ git push -u origin main
 
 ## Before you make it public — replace these placeholders
 
-1. **Contact details** in `index.html` — search for `connect@herbionix.in`, `+91 98XXX`, `Maharashtra, India` and swap for your real ones.
+1. **Contact details** are set to herbionixofficial@gmail.com and +91 70307 11935 (in the Contact panel). Check the location line (`Maharashtra, India`) and add a full address if you want one.
 2. **Domain references** in `robots.txt`, `sitemap.xml`, and the `og:url` tag in `index.html` — replace `herbionix.in` with your real domain or your `github.io` URL.
 3. **Contact form**: it currently just shows an on-page confirmation, it doesn't send anywhere (GitHub Pages has no backend). Sign up at [Formspree](https://formspree.io) or [Web3Forms](https://web3forms.com), then add `action="your-endpoint-url" method="POST"` to `<form class="contact-form" data-contact-form>` in `index.html`.
 4. **Founder bio & product claims** — written from your outline; verify every factual claim before publishing, since this is a healthcare product site.
